@@ -1,0 +1,71 @@
+.window_boundingbox{
+			position: fixed;
+			text-align: center;
+			box-shadow: 0 0 12px rgba(0,0,0,0.5);
+			/* z-index: 10; */
+		}
+.window_header{
+	height: 20px;
+	line-height: 20px;
+	width: 100%;
+	background: #333;
+	font:28px "Microsoft Yahei" normal;
+	color:#fff;
+}
+
+.window_body{
+	height: 50px;
+	box-sizing:border-box;
+	padding:10px ;
+	width: 100%;
+	font:18px "Microsoft Yahei" normal;
+}
+.window_footer{
+	box-sizing:border-box;
+	padding:5px;
+	height: 30px;
+	width: 100%;
+}
+.clsbtn{
+	position: absolute;
+	font-size:12px;
+	right: 0;
+	top:0;
+
+}
+.window_mask{
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background: rgba(0,0,0,.3);
+}
+
+/* skin for a */
+/* .window_skin_a */
+.window_skin_a.window_boundingbox{
+	background: pink;
+}
+.window_skin_a  .window_header{
+	background: orange;
+}
+.window_skin_a  .winodw_body{
+
+}
+.window_skin_a  .window_footer{
+
+}
+/* .window_skin_b */
+.window_skin_b .window_boundingbox{
+
+}
+.window_skin_b .window_header{
+	
+}
+.window_skin_b .window_body{
+	color:green;
+}
+.window_skin_b  .window_footer{
+	background:lightblue;
+}
